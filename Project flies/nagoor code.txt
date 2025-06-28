@@ -1,0 +1,20 @@
+ poultry_disease_classification/
+│
+├── data/
+│   ├── raw/                  # Original datasets (images or data files)
+│   ├── processed/            # Cleaned and prepared datasets
+│
+├── models/
+│   ├── pretrained/           # Pretrained model weights
+│   └── custom_model.py       # Model definition using transfer learning
+│
+├── notebooks/
+│   └── EDA_and_training.ipynb# Jupyter notebook for exploration and training
+│
+├── utils/
+│   ├── data_loader.py        # Data loading and augmentation
+│   └── visualize.py          # Visualization utilities
+│
+├── main.py                   # Training and evaluation pipeline
+└── requirements.txt          # Dependencies
+
